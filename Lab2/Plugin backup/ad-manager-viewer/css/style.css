@@ -1,0 +1,10 @@
+.ad {
+    background-color: bisque;
+    border: solid 1px red;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
