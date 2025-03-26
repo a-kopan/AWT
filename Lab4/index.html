@@ -11,7 +11,7 @@
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
 </head>
 
@@ -20,12 +20,12 @@
   <!--Main Navigation-->
   <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#">Navbar</a>
         <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#basicExampleNav"
           aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +46,7 @@
             </li>
             <!-- Dropdown -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Dropdown</a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Action</a>
@@ -75,17 +75,17 @@
       <div class="row d-flex justify-content-center text-center">
         <div class="col-md-10">
           <!-- Heading -->
-          <h2 class="display-4 font-weight-bold white-text pt-5 mb-2 animate__animated animate__fadeInDown">
+          <h2 class="display-4 font-weight-bold text-light pt-5 mb-2 animate__animated animate__fadeInDown">
             Podróżowanie
           </h2>
           <!-- Divider -->
           <hr class="hr-light" />
           <!-- Description -->
-          <h4 class="white-text my4 animate__animated animate__fadeInUp">
+          <h4 class="text-light my-4 animate__animated animate__fadeInUp">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
             consequuntur.
           </h4>
-          <button type="button" class="btn btn-outline-white animate__animated animate__fadeInUp">
+          <button type="button" class="btn btn-outline-white text-light animate__animated animate__fadeInUp">
             Dowiedz się więcej<i class="fas fa-book ml-2"></i>
           </button>
         </div>
@@ -356,7 +356,8 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
       <hr class="my-5" />
       <!-- ADDED - FAQ Accordion -->
       <section id="faq" class="mb-5">
@@ -402,6 +403,8 @@
         <h2 class="text-center mb-4">Popular Travel Destinations</h2>
         <canvas id="travelChart"></canvas>
       </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </div>
   </main>
   <!--Main Layout-->
@@ -410,8 +413,6 @@
   <footer class="text-center py-4">&copy; 2025 Travel Website</footer>
   <!--Footer-->
 
-  <!-- MDB JS -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Chart Initialization Script -->
